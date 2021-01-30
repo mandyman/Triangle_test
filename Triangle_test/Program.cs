@@ -61,7 +61,7 @@ namespace Triangle_test
         }
         static void Main(string[] args)
         {
-            int[][] triangle = new int[][]
+            /*int[][] triangle = new int[][]
             {
                 new int[]{ 5 },
                 new int[]{ 9, 6 },
@@ -79,15 +79,30 @@ namespace Triangle_test
                 new int[]{ 36, 12, 18, 73, 93, 85 }
             };
 
+            int[][] triangle3 = new int[][]
+{
+                new int[]{ 49 },
+                new int[]{ 488, 1 },
+                new int[]{ 112, 24, 35 },
+                new int[]{ 1, 1, 259, 16 },
+                new int[]{ 13, 42, 58, 43, 2 },
+                new int[]{ 36, 1, 48, 1, 93, 85 },
+                new int[]{ 36, 1, 48, 1, 93, 333, 111 }
+};
+
             double result = TriangleMaxSumCalculator.Calculate(triangle); // 27
             Console.WriteLine("Max sum is {0}",result);
 
             double result2 = TriangleMaxSumCalculator.Calculate(triangle2); // 371
             Console.WriteLine("Max sum is {0}", result2);
 
-            int[][] triangle3 = ReadTriangle("../../../resources/Triangle.txt"); // 732506
-            double result3 = TriangleMaxSumCalculator.Calculate(triangle3);
+            double result3 = TriangleMaxSumCalculator.Calculate(triangle3); // 1289
             Console.WriteLine("Max sum is {0}", result3);
+            */
+
+            int[][] triangle4 = ReadTriangle("../../../resources/Triangle.txt"); // 732506
+            double result4 = TriangleMaxSumCalculator.Calculate(triangle4);
+            Console.WriteLine("Max sum is {0}", result4);
 
             
         }
